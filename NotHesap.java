@@ -17,11 +17,9 @@ public class NotHesap {
 
         ort = ( fiz + kim + tur + muz + tar) / 5;
         System.out.println("Ortalamanız : " + ort);
-        if( ort >= 60 ){
-            System.out.println("Tebrikler, GEÇTİNİZ!");
-        }else {
-            System.out.println("KALDINIZ!");
-        }
+        boolean sonuc = ort >= 60;
+        String gectiKaldi = sonuc ? " Tebrikler, Geçtiniz !" : "Kaldınız !";
+        System.out.println(gectiKaldi);
 
 
 
