@@ -11,10 +11,12 @@ public class Kdv {
         para = inp.nextInt();
 
 
-        vOran = 0.18;
-        vtutar = para * vOran;
+        vOran1 = 0.18;
+        vOran2 = 0.08;
+        boolean kdv = para < 1000;
+        double hangiOran = kdv ? vOran1 : vOran2;
+        vtutar = para * hangiOran;
         System.out.println("KDV tutarı : " + vtutar);
-
         net = para + vtutar;
         System.out.println("Toplam Tutar : " + net);
     }
