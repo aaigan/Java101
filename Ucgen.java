@@ -16,6 +16,15 @@ public class Ucgen {
         float alanKare = u * (u - k1) * (u - k2) * (u - k3);
 
         System.out.print("Üçgenin Alanı " + Math.sqrt(alanKare));
-        
+
+        //Üç kenar uzunluğunu kullanıcıdan aldığınız üçgenin alanını hesaplayan programı yazınız.
+        //Üç𝑔𝑒𝑛𝑖𝑛 ç𝑒𝑣𝑟𝑒𝑠𝑖 = 2𝑢
+        //
+        //𝑢 = (a+b+c) / 2
+        //
+        //Alan * Alan = 𝑢 * (𝑢 − 𝑎)* (𝑢 − 𝑏) * (𝑢 − 𝑐)
+
+
+
     }
 }
