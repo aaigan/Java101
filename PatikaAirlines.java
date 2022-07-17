@@ -45,9 +45,6 @@ public class PatikaAirlines {
                 yonIndirim = 0;
                 tTutar = iTutar;
             }
-            //bu kısma ttype durumundaki inndirim yazılacak
-            //yaşa göre indirim
-            //hatalı veri durumunda hata mesajı çalışıyor
             System.out.println("----------------------------------------------------------------");
             System.out.println("1 ticket price : " + nTutar + "$");
             System.out.println("Age discount : " + yasIndirim + "$");
