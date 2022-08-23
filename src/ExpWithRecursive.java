@@ -9,15 +9,15 @@ public class ExpWithRecursive {
             return 1;
         }
         result *= x;
-        f(x, y-1);
-        return result;
+
+        return f(x, y-1) * x;
     }
 
     public static void main(String[] args) {
         Scanner inp = new Scanner(System.in);
-        System.out.print("Enter the number a: ");
+        System.out.print("Enter the number base: ");
         int a = inp.nextInt();
-        System.out.print("Enter the number b: ");
+        System.out.print("Enter the number exponent: ");
         int b = inp.nextInt();
 
         System.out.println( a + "^" + b + " = " + f(a, b));
